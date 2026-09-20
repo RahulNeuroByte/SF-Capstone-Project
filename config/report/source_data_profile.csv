@@ -1,0 +1,5 @@
+file,rows,columns,null_cells,duplicate_rows
+pos_sales.csv,1000,5,0,0
+online_orders.csv,1000,5,0,0
+product_catalog.csv,1000,5,0,0
+inventory_device_logs.csv,1000,5,0,0

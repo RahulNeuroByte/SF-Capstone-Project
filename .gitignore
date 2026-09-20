@@ -1,0 +1,42 @@
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.python-version
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# Local tooling and operating-system files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs, reports, caches, and generated local output
+*.log
+*.tmp
+*.cache
+coverage.xml
+htmlcov/
+dist/
+build/
+
+# Private or scratch documentation. The checked-in docs/ guides remain tracked.
+docs/**/*.local.md
+docs/private/
+
+# Local Snowpark or notebook artifacts
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+snowflake_connection.json

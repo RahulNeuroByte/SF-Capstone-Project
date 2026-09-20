@@ -1,0 +1,3 @@
+snowflake-snowpark-python
+snowflake-connector-python
+python-dotenv
